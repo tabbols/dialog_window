@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+    padding: 2%;
+}
+.wrapper p {
+    font-size: 18px;   
+}
+.vkFormShow {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.vkFormShow .vkForm {
+    width: 50%;
+    margin: 0 24% 0 24%;
+    padding: 3% 1% 5% 1%;
+}
+.vkFormPanel {
+    width: 100%;
+    height: 65px;
+    background-color: #eee;
+    float: left;
+}
+.vkFormPanelImg {
+    padding: 7.5px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+.vkFormPanelImg img {
+    height: 50px;
+    width: auto;
+}
+.vkFormPanelLink {
+    float: left;   
+    margin-left: 10px;
+    margin-top: 7.5px;
+}
+.vkFormPanelLink a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+.vkFormPanelLink a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #000;
+}
+.vkFormPanelClose {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.vkFormPanelClose a{
+    color: #2B587A;
+    text-decoration: none;
+}
+.vkFormPanelClose a:hover{
+    color: #2B587A;
+    text-decoration: underline;
+}
+.vkFormContent {
+    float: left;
+    background-color: #fff;   
+    padding: 0 10px 0 10px;
+    font-size: 1.2em;
+}

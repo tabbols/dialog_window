@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                    PopUpHide();
+                });
+            
+            function PopUpShow() {
+                $(".vkFormShow").show();   
+            }
+            
+            function PopUpHide() {
+                $(".vkFormShow").hide();   
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <p><a href="javascript:PopUpShow()">Open Dialog</a> - воспользуйтесь данной ссылкой, чтобы открыть окно, как в Вконтакту.</p>
+        </div>
+        <div class="vkFormShow">
+            <div class="vkForm">
+               <div class="vkFormPanel">
+                   <div class="vkFormPanelImg"><img src="1457471152_man.png" alt=""></div>
+                   <div class="vkFormPanelLink"><p><a href="http://vk.com/tabbols" target="_blank">Шилов Александр</a></p></div>
+                   <div class="vkFormPanelClose"><a href="javascript:PopUpHide()">Close</a></div>
+               </div>
+               <div class="vkFormContent">
+                   <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>
