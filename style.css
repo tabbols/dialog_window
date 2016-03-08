@@ -24,52 +24,52 @@ body {
     margin: 0 24% 0 24%;
     padding: 3% 1% 5% 1%;
 }
-.vkFormPanel {
+.vkFormShow .vkForm .vkFormPanel {
     width: 100%;
     height: 65px;
     background-color: #eee;
     float: left;
 }
-.vkFormPanelImg {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelImg {
     padding: 7.5px;
     height: auto;
     width: auto;
     float: left;
 }
-.vkFormPanelImg img {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelImg img {
     height: 50px;
     width: auto;
 }
-.vkFormPanelLink {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelLink {
     float: left;   
     margin-left: 10px;
     margin-top: 7.5px;
 }
-.vkFormPanelLink a {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelLink a {
     text-decoration: none;
     font-size: 18px;
     color: #000;
 }
-.vkFormPanelLink a:hover {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelLink a:hover {
     text-decoration: underline;
     font-size: 18px;
     color: #000;
 }
-.vkFormPanelClose {
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelClose {
     float: right;
     font-size: 14px;
     margin-right: 10px;
     margin-top: 10px;
 }
-.vkFormPanelClose a{
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelClose a{
     color: #2B587A;
     text-decoration: none;
 }
-.vkFormPanelClose a:hover{
+.vkFormShow .vkForm .vkFormPanel .vkFormPanelClose a:hover{
     color: #2B587A;
     text-decoration: underline;
 }
-.vkFormContent {
+.vkFormShow .vkForm .vkFormContent {
     float: left;
     background-color: #fff;   
     padding: 0 10px 0 10px;
